@@ -1,0 +1,23 @@
+<h2>Error Insights Dashboard</h2>
+
+<app-filters (apply)="onApply($event)"></app-filters>
+
+<section class="results">
+  <h3>Errors</h3>
+
+  <app-errors [items]="items"></app-errors>
+
+  <div *ngIf="total > 0" style="margin: 8px 0">
+    <button (click)="prevPage()" [disabled]="page === 1">Prev</button>
+    <span style="margin: 0 8px">Page {{ page }} of {{ totalPages }}</span>
+    <button (click)="nextPage()" [disabled]="page * pageSize >= total">
+      Next
+    </button>
+    <span style="margin-left: 12px; opacity: 0.7">Total: {{ total }}</span>
+  </div>
+</section>
+
+<section class="widgets">
+  <h3>Results & Stats</h3>
+  <app-stats [data]="stats"></app-stats>
+</section>

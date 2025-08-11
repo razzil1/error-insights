@@ -1,0 +1,10 @@
+<div class="errors">
+  <div *ngIf="len === 0" class="empty">No errors in this range.</div>
+  <div *ngFor="let e of _items; trackBy: trackById" class="row">
+    <div>{{ e.timestamp | date : "short" }}</div>
+    <div>{{ e.userId }}</div>
+    <div>{{ e.browser }}</div>
+    <div>{{ e.url }}</div>
+    <div class="msg">{{ e.errorMessage }}</div>
+  </div>
+</div>

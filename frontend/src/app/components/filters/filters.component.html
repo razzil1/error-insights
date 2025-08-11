@@ -1,0 +1,8 @@
+<form *ngIf="ready()" [formGroup]="form" class="row" (ngSubmit)="onSubmit()">
+  <input type="datetime-local" formControlName="from" placeholder="from" />
+  <input type="datetime-local" formControlName="to" placeholder="to" />
+  <input type="text" formControlName="userId" placeholder="userId" />
+  <input type="text" formControlName="browser" placeholder="browser" />
+  <input type="text" formControlName="keyword" placeholder="keyword" />
+  <button type="submit">Apply</button>
+</form>

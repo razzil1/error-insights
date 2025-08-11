@@ -1,0 +1,23 @@
+<div class="grid">
+  <div class="panel">
+    <h4>By Browser</h4>
+    <div
+      *ngIf="pieByTermOptions()"
+      echarts
+      [options]="pieByTermOptions()!"
+      [autoResize]="true"
+      class="chart"
+    ></div>
+  </div>
+
+  <div class="panel">
+    <h4>Top Error Messages</h4>
+    <div
+      *ngIf="pieErrorsOptions()"
+      echarts
+      [options]="pieErrorsOptions()!"
+      [autoResize]="true"
+      class="chart"
+    ></div>
+  </div>
+</div>

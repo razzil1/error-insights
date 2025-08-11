@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "properties": {
+      "timestamp": { "type": "date" },
+      "userId": { "type": "keyword" },
+      "browser": { "type": "keyword" },
+      "url": { "type": "keyword" },
+      "errorMessage": {
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword", "ignore_above": 256 } }
+      },
+      "stackTrace": { "type": "text" }
+    }
+  }
+}

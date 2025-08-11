@@ -1,0 +1,802 @@
+[
+  {
+    "timestamp": "2025-08-04T10:04:00Z",
+    "userId": "user-118",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at init (polyfill.js:109)"
+  },
+  {
+    "timestamp": "2025-08-04T10:04:30Z",
+    "userId": "user-122",
+    "browser": "Chrome",
+    "url": "/notifications",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at parse (auth.service.ts:113)"
+  },
+  {
+    "timestamp": "2025-08-04T10:05:00Z",
+    "userId": "user-122",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at init (api.ts:318)"
+  },
+  {
+    "timestamp": "2025-08-04T10:05:30Z",
+    "userId": "user-121",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at render (polyfill.js:272)"
+  },
+  {
+    "timestamp": "2025-08-04T10:06:00Z",
+    "userId": "user-119",
+    "browser": "Chrome",
+    "url": "/api/data",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at render (polyfill.js:369)"
+  },
+  {
+    "timestamp": "2025-08-04T10:06:30Z",
+    "userId": "user-040",
+    "browser": "Chrome",
+    "url": "/landing",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at handleClick (app.component.ts:252)"
+  },
+  {
+    "timestamp": "2025-08-04T10:07:00Z",
+    "userId": "user-073",
+    "browser": "Chrome",
+    "url": "/feature/new",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at init (polyfill.js:353)"
+  },
+  {
+    "timestamp": "2025-08-04T10:07:30Z",
+    "userId": "user-048",
+    "browser": "Chrome",
+    "url": "/checkout",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at parse (main.ts:128)"
+  },
+  {
+    "timestamp": "2025-08-04T10:08:00Z",
+    "userId": "user-098",
+    "browser": "Firefox",
+    "url": "/feature/new",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at render (api.ts:314)"
+  },
+  {
+    "timestamp": "2025-08-04T10:08:30Z",
+    "userId": "user-124",
+    "browser": "Chrome",
+    "url": "/checkout",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at login (auth.service.ts:85)"
+  },
+  {
+    "timestamp": "2025-08-04T10:09:00Z",
+    "userId": "user-022",
+    "browser": "Safari",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at parse (app.component.ts:240)"
+  },
+  {
+    "timestamp": "2025-08-04T10:09:30Z",
+    "userId": "user-133",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at mount (login.ts:50)"
+  },
+  {
+    "timestamp": "2025-08-05T10:00:00Z",
+    "userId": "user-132",
+    "browser": "Safari",
+    "url": "/notifications",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at Object.<anonymous> (utils.ts:167)"
+  },
+  {
+    "timestamp": "2025-08-05T10:00:30Z",
+    "userId": "user-076",
+    "browser": "Chrome",
+    "url": "/profile",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at init (utils.ts:278)"
+  },
+  {
+    "timestamp": "2025-08-05T10:01:00Z",
+    "userId": "user-014",
+    "browser": "Chrome",
+    "url": "/settings",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at fetchData (auth.service.ts:54)"
+  },
+  {
+    "timestamp": "2025-08-05T10:01:30Z",
+    "userId": "user-012",
+    "browser": "Chrome",
+    "url": "/notifications",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at init (api.ts:308)"
+  },
+  {
+    "timestamp": "2025-08-05T10:02:00Z",
+    "userId": "user-056",
+    "browser": "Firefox",
+    "url": "/checkout",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at login (utils.ts:222)"
+  },
+  {
+    "timestamp": "2025-08-05T10:02:30Z",
+    "userId": "user-135",
+    "browser": "Chrome",
+    "url": "/projects/42",
+    "errorMessage": "ReferenceError: foo is not defined",
+    "stackTrace": "at login (polyfill.js:204)"
+  },
+  {
+    "timestamp": "2025-08-05T10:03:00Z",
+    "userId": "user-098",
+    "browser": "Firefox",
+    "url": "/dashboard",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at handleClick (dashboard.ts:249)"
+  },
+  {
+    "timestamp": "2025-08-05T10:03:30Z",
+    "userId": "user-066",
+    "browser": "Firefox",
+    "url": "/admin",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at fetchData (login.ts:85)"
+  },
+  {
+    "timestamp": "2025-08-05T10:04:00Z",
+    "userId": "user-134",
+    "browser": "Safari",
+    "url": "/search",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at render (dashboard.ts:46)"
+  },
+  {
+    "timestamp": "2025-08-05T10:04:30Z",
+    "userId": "user-089",
+    "browser": "Edge",
+    "url": "/projects",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at init (app.component.ts:29)"
+  },
+  {
+    "timestamp": "2025-08-05T10:05:00Z",
+    "userId": "user-008",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at mount (api.ts:106)"
+  },
+  {
+    "timestamp": "2025-08-05T10:05:30Z",
+    "userId": "user-055",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at handleClick (api.ts:251)"
+  },
+  {
+    "timestamp": "2025-08-05T10:06:00Z",
+    "userId": "user-035",
+    "browser": "Chrome",
+    "url": "/help",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at handleClick (app.component.ts:289)"
+  },
+  {
+    "timestamp": "2025-08-05T10:06:30Z",
+    "userId": "user-121",
+    "browser": "Edge",
+    "url": "/settings",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at handleClick (app.component.ts:244)"
+  },
+  {
+    "timestamp": "2025-08-05T10:07:00Z",
+    "userId": "user-014",
+    "browser": "Chrome",
+    "url": "/admin",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at login (dashboard.ts:36)"
+  },
+  {
+    "timestamp": "2025-08-05T10:07:30Z",
+    "userId": "user-137",
+    "browser": "Edge",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at login (main.ts:228)"
+  },
+  {
+    "timestamp": "2025-08-06T10:00:00Z",
+    "userId": "user-120",
+    "browser": "Firefox",
+    "url": "/help",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at render (app.component.ts:176)"
+  },
+  {
+    "timestamp": "2025-08-06T10:00:30Z",
+    "userId": "user-087",
+    "browser": "Chrome",
+    "url": "/feature/new",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at mount (polyfill.js:200)"
+  },
+  {
+    "timestamp": "2025-08-06T10:01:00Z",
+    "userId": "user-067",
+    "browser": "Firefox",
+    "url": "/experiments",
+    "errorMessage": "TimeoutError: Operation timed out after 5000ms",
+    "stackTrace": "at parse (main.ts:281)"
+  },
+  {
+    "timestamp": "2025-08-06T10:01:30Z",
+    "userId": "user-053",
+    "browser": "Chrome",
+    "url": "/billing",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at render (auth.service.ts:329)"
+  },
+  {
+    "timestamp": "2025-08-06T10:02:00Z",
+    "userId": "user-113",
+    "browser": "Firefox",
+    "url": "/billing",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at handleClick (utils.ts:120)"
+  },
+  {
+    "timestamp": "2025-08-06T10:02:30Z",
+    "userId": "user-034",
+    "browser": "Chrome",
+    "url": "/experiments",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at login (main.ts:336)"
+  },
+  {
+    "timestamp": "2025-08-06T10:03:00Z",
+    "userId": "user-004",
+    "browser": "Chrome",
+    "url": "/feature/new",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at login (main.ts:329)"
+  },
+  {
+    "timestamp": "2025-08-06T10:03:30Z",
+    "userId": "user-033",
+    "browser": "Edge",
+    "url": "/billing",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at login (polyfill.js:255)"
+  },
+  {
+    "timestamp": "2025-08-06T10:04:00Z",
+    "userId": "user-076",
+    "browser": "Safari",
+    "url": "/landing",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at Object.<anonymous> (polyfill.js:76)"
+  },
+  {
+    "timestamp": "2025-08-06T10:04:30Z",
+    "userId": "user-066",
+    "browser": "Chrome",
+    "url": "/settings",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at parse (api.ts:83)"
+  },
+  {
+    "timestamp": "2025-08-06T10:05:00Z",
+    "userId": "user-052",
+    "browser": "Chrome",
+    "url": "/reports",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at login (auth.service.ts:295)"
+  },
+  {
+    "timestamp": "2025-08-06T10:05:30Z",
+    "userId": "user-083",
+    "browser": "Safari",
+    "url": "/api/data",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at handleClick (utils.ts:305)"
+  },
+  {
+    "timestamp": "2025-08-06T10:06:00Z",
+    "userId": "user-086",
+    "browser": "Chrome",
+    "url": "/reports",
+    "errorMessage": "TimeoutError: Operation timed out after 5000ms",
+    "stackTrace": "at render (polyfill.js:374)"
+  },
+  {
+    "timestamp": "2025-08-06T10:06:30Z",
+    "userId": "user-031",
+    "browser": "Firefox",
+    "url": "/settings",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at parse (auth.service.ts:371)"
+  },
+  {
+    "timestamp": "2025-08-06T10:07:00Z",
+    "userId": "user-037",
+    "browser": "Firefox",
+    "url": "/landing",
+    "errorMessage": "ReferenceError: foo is not defined",
+    "stackTrace": "at parse (main.ts:303)"
+  },
+  {
+    "timestamp": "2025-08-06T10:07:30Z",
+    "userId": "user-012",
+    "browser": "Firefox",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at login (utils.ts:152)"
+  },
+  {
+    "timestamp": "2025-08-06T10:08:00Z",
+    "userId": "user-037",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at fetchData (main.ts:196)"
+  },
+  {
+    "timestamp": "2025-08-06T10:08:30Z",
+    "userId": "user-055",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at render (dashboard.ts:132)"
+  },
+  {
+    "timestamp": "2025-08-07T10:00:00Z",
+    "userId": "user-059",
+    "browser": "Firefox",
+    "url": "/profile",
+    "errorMessage": "ReferenceError: foo is not defined",
+    "stackTrace": "at handleClick (api.ts:349)"
+  },
+  {
+    "timestamp": "2025-08-07T10:00:30Z",
+    "userId": "user-012",
+    "browser": "Firefox",
+    "url": "/landing",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at fetchData (utils.ts:320)"
+  },
+  {
+    "timestamp": "2025-08-07T10:01:00Z",
+    "userId": "user-027",
+    "browser": "Chrome",
+    "url": "/notifications",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at render (api.ts:158)"
+  },
+  {
+    "timestamp": "2025-08-07T10:01:30Z",
+    "userId": "user-096",
+    "browser": "Safari",
+    "url": "/projects/42",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at render (utils.ts:141)"
+  },
+  {
+    "timestamp": "2025-08-07T10:02:00Z",
+    "userId": "user-064",
+    "browser": "Chrome",
+    "url": "/feature/new",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at render (utils.ts:238)"
+  },
+  {
+    "timestamp": "2025-08-07T10:02:30Z",
+    "userId": "user-076",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at login (api.ts:218)"
+  },
+  {
+    "timestamp": "2025-08-07T10:03:00Z",
+    "userId": "user-146",
+    "browser": "Chrome",
+    "url": "/settings",
+    "errorMessage": "ReferenceError: foo is not defined",
+    "stackTrace": "at init (dashboard.ts:67)"
+  },
+  {
+    "timestamp": "2025-08-07T10:03:30Z",
+    "userId": "user-004",
+    "browser": "Chrome",
+    "url": "/feature/new",
+    "errorMessage": "TimeoutError: Operation timed out after 5000ms",
+    "stackTrace": "at login (app.component.ts:174)"
+  },
+  {
+    "timestamp": "2025-08-07T10:04:00Z",
+    "userId": "user-124",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at render (app.component.ts:117)"
+  },
+  {
+    "timestamp": "2025-08-07T10:04:30Z",
+    "userId": "user-016",
+    "browser": "Firefox",
+    "url": "/admin",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at login (app.component.ts:259)"
+  },
+  {
+    "timestamp": "2025-08-07T10:05:00Z",
+    "userId": "user-109",
+    "browser": "Safari",
+    "url": "/billing",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at parse (app.component.ts:132)"
+  },
+  {
+    "timestamp": "2025-08-07T10:05:30Z",
+    "userId": "user-077",
+    "browser": "Chrome",
+    "url": "/reports",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at render (utils.ts:272)"
+  },
+  {
+    "timestamp": "2025-08-07T10:06:00Z",
+    "userId": "user-150",
+    "browser": "Chrome",
+    "url": "/search",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at fetchData (main.ts:278)"
+  },
+  {
+    "timestamp": "2025-08-07T10:06:30Z",
+    "userId": "user-088",
+    "browser": "Chrome",
+    "url": "/api/data",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at handleClick (dashboard.ts:74)"
+  },
+  {
+    "timestamp": "2025-08-08T10:00:00Z",
+    "userId": "user-129",
+    "browser": "Chrome",
+    "url": "/notifications",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at init (api.ts:261)"
+  },
+  {
+    "timestamp": "2025-08-08T10:00:30Z",
+    "userId": "user-064",
+    "browser": "Chrome",
+    "url": "/settings",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at Object.<anonymous> (auth.service.ts:112)"
+  },
+  {
+    "timestamp": "2025-08-08T10:01:00Z",
+    "userId": "user-095",
+    "browser": "Chrome",
+    "url": "/reports",
+    "errorMessage": "ReferenceError: foo is not defined",
+    "stackTrace": "at render (login.ts:396)"
+  },
+  {
+    "timestamp": "2025-08-08T10:01:30Z",
+    "userId": "user-054",
+    "browser": "Chrome",
+    "url": "/experiments",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at Object.<anonymous> (utils.ts:349)"
+  },
+  {
+    "timestamp": "2025-08-08T10:02:00Z",
+    "userId": "user-061",
+    "browser": "Safari",
+    "url": "/reports",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at login (auth.service.ts:396)"
+  },
+  {
+    "timestamp": "2025-08-08T10:02:30Z",
+    "userId": "user-124",
+    "browser": "Chrome",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at init (utils.ts:208)"
+  },
+  {
+    "timestamp": "2025-08-08T10:03:00Z",
+    "userId": "user-058",
+    "browser": "Chrome",
+    "url": "/projects/42",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at fetchData (auth.service.ts:131)"
+  },
+  {
+    "timestamp": "2025-08-08T10:03:30Z",
+    "userId": "user-014",
+    "browser": "Chrome",
+    "url": "/api/data",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at mount (api.ts:102)"
+  },
+  {
+    "timestamp": "2025-08-08T10:04:00Z",
+    "userId": "user-019",
+    "browser": "Firefox",
+    "url": "/profile",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at fetchData (api.ts:319)"
+  },
+  {
+    "timestamp": "2025-08-08T10:04:30Z",
+    "userId": "user-126",
+    "browser": "Edge",
+    "url": "/projects",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at mount (app.component.ts:197)"
+  },
+  {
+    "timestamp": "2025-08-09T10:00:00Z",
+    "userId": "user-141",
+    "browser": "Chrome",
+    "url": "/search",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at Object.<anonymous> (api.ts:133)"
+  },
+  {
+    "timestamp": "2025-08-09T10:00:30Z",
+    "userId": "user-138",
+    "browser": "Firefox",
+    "url": "/help",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at render (utils.ts:143)"
+  },
+  {
+    "timestamp": "2025-08-09T10:01:00Z",
+    "userId": "user-013",
+    "browser": "Firefox",
+    "url": "/login",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at fetchData (dashboard.ts:321)"
+  },
+  {
+    "timestamp": "2025-08-09T10:01:30Z",
+    "userId": "user-003",
+    "browser": "Firefox",
+    "url": "/landing",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at init (app.component.ts:147)"
+  },
+  {
+    "timestamp": "2025-08-09T10:02:00Z",
+    "userId": "user-129",
+    "browser": "Chrome",
+    "url": "/help",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at handleClick (main.ts:154)"
+  },
+  {
+    "timestamp": "2025-08-09T10:02:30Z",
+    "userId": "user-089",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at mount (polyfill.js:233)"
+  },
+  {
+    "timestamp": "2025-08-09T10:03:00Z",
+    "userId": "user-080",
+    "browser": "Chrome",
+    "url": "/landing",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at handleClick (main.ts:354)"
+  },
+  {
+    "timestamp": "2025-08-09T10:03:30Z",
+    "userId": "user-025",
+    "browser": "Chrome",
+    "url": "/checkout",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at fetchData (login.ts:354)"
+  },
+  {
+    "timestamp": "2025-08-09T10:04:00Z",
+    "userId": "user-150",
+    "browser": "Firefox",
+    "url": "/reports",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at parse (polyfill.js:194)"
+  },
+  {
+    "timestamp": "2025-08-09T10:04:30Z",
+    "userId": "user-052",
+    "browser": "Edge",
+    "url": "/landing",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at handleClick (app.component.ts:132)"
+  },
+  {
+    "timestamp": "2025-08-10T10:00:00Z",
+    "userId": "user-118",
+    "browser": "Chrome",
+    "url": "/login",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at init (polyfill.js:109)"
+  },
+  {
+    "timestamp": "2025-08-10T10:00:30Z",
+    "userId": "user-122",
+    "browser": "Chrome",
+    "url": "/notifications",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at parse (auth.service.ts:113)"
+  },
+  {
+    "timestamp": "2025-08-10T10:01:00Z",
+    "userId": "user-122",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at init (api.ts:318)"
+  },
+  {
+    "timestamp": "2025-08-10T10:01:30Z",
+    "userId": "user-121",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at render (polyfill.js:272)"
+  },
+  {
+    "timestamp": "2025-08-10T10:02:00Z",
+    "userId": "user-119",
+    "browser": "Chrome",
+    "url": "/api/data",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at render (polyfill.js:369)"
+  },
+  {
+    "timestamp": "2025-08-10T10:02:30Z",
+    "userId": "user-040",
+    "browser": "Chrome",
+    "url": "/landing",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at handleClick (app.component.ts:252)"
+  },
+  {
+    "timestamp": "2025-08-10T10:03:00Z",
+    "userId": "user-073",
+    "browser": "Chrome",
+    "url": "/feature/new",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at init (polyfill.js:353)"
+  },
+  {
+    "timestamp": "2025-08-10T10:03:30Z",
+    "userId": "user-048",
+    "browser": "Chrome",
+    "url": "/checkout",
+    "errorMessage": "NetworkError when attempting to fetch resource.",
+    "stackTrace": "at parse (main.ts:128)"
+  },
+  {
+    "timestamp": "2025-08-10T10:04:00Z",
+    "userId": "user-098",
+    "browser": "Firefox",
+    "url": "/feature/new",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at render (api.ts:314)"
+  },
+  {
+    "timestamp": "2025-08-10T10:04:30Z",
+    "userId": "user-124",
+    "browser": "Chrome",
+    "url": "/checkout",
+    "errorMessage": "QuotaExceededError: The quota has been exceeded.",
+    "stackTrace": "at login (auth.service.ts:85)"
+  },
+  {
+    "timestamp": "2025-08-11T10:00:00Z",
+    "userId": "user-022",
+    "browser": "Safari",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at parse (app.component.ts:240)"
+  },
+  {
+    "timestamp": "2025-08-11T10:00:30Z",
+    "userId": "user-133",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "Failed to fetch",
+    "stackTrace": "at mount (login.ts:50)"
+  },
+  {
+    "timestamp": "2025-08-11T10:01:00Z",
+    "userId": "user-132",
+    "browser": "Safari",
+    "url": "/notifications",
+    "errorMessage": "TypeError: Cannot read properties of null (reading 'length')",
+    "stackTrace": "at Object.<anonymous> (utils.ts:167)"
+  },
+  {
+    "timestamp": "2025-08-11T10:01:30Z",
+    "userId": "user-076",
+    "browser": "Chrome",
+    "url": "/profile",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at init (utils.ts:278)"
+  },
+  {
+    "timestamp": "2025-08-11T10:02:00Z",
+    "userId": "user-014",
+    "browser": "Chrome",
+    "url": "/settings",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at fetchData (auth.service.ts:54)"
+  },
+  {
+    "timestamp": "2025-08-11T10:02:30Z",
+    "userId": "user-012",
+    "browser": "Chrome",
+    "url": "/notifications",
+    "errorMessage": "Uncaught (in promise) Error: Request failed with status 500",
+    "stackTrace": "at init (api.ts:308)"
+  },
+  {
+    "timestamp": "2025-08-11T10:03:00Z",
+    "userId": "user-056",
+    "browser": "Firefox",
+    "url": "/checkout",
+    "errorMessage": "DOMException: The operation is insecure.",
+    "stackTrace": "at login (utils.ts:222)"
+  },
+  {
+    "timestamp": "2025-08-11T10:03:30Z",
+    "userId": "user-135",
+    "browser": "Chrome",
+    "url": "/projects/42",
+    "errorMessage": "ReferenceError: foo is not defined",
+    "stackTrace": "at login (polyfill.js:204)"
+  },
+  {
+    "timestamp": "2025-08-11T10:04:00Z",
+    "userId": "user-098",
+    "browser": "Firefox",
+    "url": "/dashboard",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at handleClick (dashboard.ts:249)"
+  },
+  {
+    "timestamp": "2025-08-11T10:04:30Z",
+    "userId": "user-066",
+    "browser": "Firefox",
+    "url": "/admin",
+    "errorMessage": "SyntaxError: Unexpected token < in JSON at position 0",
+    "stackTrace": "at fetchData (login.ts:85)"
+  }
+]
