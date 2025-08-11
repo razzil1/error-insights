@@ -1,0 +1,95 @@
+# -------------------------
+# OS & Editors
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# -------------------------
+# Node / Package Managers
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Commit your lockfiles; don't ignore:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# -------------------------
+# TypeScript
+# -------------------------
+*.tsbuildinfo
+
+# -------------------------
+# Builds / Bundles
+# -------------------------
+dist/
+build/
+tmp/
+temp/
+.out/
+
+# Angular-specific caches/outputs (root or frontend/)
+.angular/
+frontend/.angular/
+frontend/dist/
+
+# -------------------------
+# Lint / Test / Coverage
+# -------------------------
+.eslintcache
+coverage/
+.nyc_output/
+reports/
+jest-html-reporters-*
+test-results/
+junit.xml
+
+# -------------------------
+# Env & Secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Docker & Local Volumes
+# -------------------------
+docker-compose.override.yml
+*.local.yml
+docker/
+docker-data/
+mongo-data/
+elastic-data/
+redis-data/
+
+# -------------------------
+# Datastore Artifacts
+# -------------------------
+dump.rdb        # Redis dump
+*.bson          # Mongo dumps
+*.wt            # WiredTiger files (Mongo)
+*.ns
+
+# -------------------------
+# Logs & PIDs
+# -------------------------
+*.log
+logs/
+pids/
+*.pid
+*.pid.lock
+
+# -------------------------
+# Misc build caches (rare)
+# -------------------------
+.cache/
+.parcel-cache/
+turbo/
