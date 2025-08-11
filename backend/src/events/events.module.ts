@@ -4,6 +4,7 @@ import { EventsController } from "./events.controller";
 import { EventsService } from "./events.service";
 import { ErrorEvent, ErrorEventSchema } from "./schemas/error-event.schema";
 import { Client } from "@elastic/elasticsearch";
+import { config } from "src/config";
 import { CreateIndexOptions, ensureErrorIndex } from "./es/error-event.index";
 import mapping from "./es/error-event.mapping.json";
 
@@ -20,12 +21,12 @@ import mapping from "./es/error-event.mapping.json";
       provide: Client,
       useFactory: async () => {
         const client = new Client({
-          node: process.env.ES_NODE,
+          node: config.ES_NODE,
         });
 
         await ensureErrorIndex(
           client,
-          process.env.ES_INDEX,
+          config.ES_INDEX,
           mapping as CreateIndexOptions
         );
 

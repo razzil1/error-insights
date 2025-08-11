@@ -2,6 +2,7 @@ import { Injectable, Logger } from "@nestjs/common";
 import { InjectModel } from "@nestjs/mongoose";
 import { Model } from "mongoose";
 import { Client, estypes } from "@elastic/elasticsearch";
+import { config } from "src/config";
 import { ErrorEvent } from "./schemas/error-event.schema";
 import { SearchEventsDto, StatsQueryDto } from "./dto";
 import { CacheService } from "../common/cache/cache.service";
@@ -109,7 +110,7 @@ export class EventsService {
 
   async search(q: SearchEventsDto, index: string): Promise<SearchResult> {
     const key = `search:${JSON.stringify(q)}`;
-    const ttl = Number(process.env.CACHE_TTL_SECONDS);
+    const ttl = Number(config.CACHE_TTL_SECONDS);
 
     this.logger.log(`search: index=${index} cacheKey=${key} ttl=${ttl}s`);
 
@@ -145,7 +146,7 @@ export class EventsService {
 
   async stats(q: StatsQueryDto, index: string): Promise<StatsResult> {
     const key = `stats:${JSON.stringify(q)}`;
-    const ttl = Number(process.env.CACHE_TTL_SECONDS);
+    const ttl = Number(config.CACHE_TTL_SECONDS);
 
     this.logger.log(
       `stats: index=${index} termField=${
